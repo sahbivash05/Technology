@@ -44,7 +44,7 @@ table {
 }
 header{
     background-color: rgba(0, 0, 0, 0.884);
-    background-image:url(/images/slider.jpg);
+    background-image:url(.//images/slider.jpg);
 background-position: center;
 background-size: cover;
 width: 100%;
