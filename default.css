@@ -120,6 +120,10 @@ width: 100%;
     border:1px solid rgb(24, 171, 230);
 height:40px;
 border-radius: 0;
+color:white;
+}
+.mail:focus{
+    background: transparent;
 }
 .btn{
     background: transparent;
@@ -143,13 +147,215 @@ border-radius: 0;
     width: 35px;
     margin:7px;
     text-align: center;
-    padding:8px;
-    transition: all 0.5s ease-in-out;
+    /* padding:8px; */
+    transition: all 0.3s ease-in-out;
 }
 .icons{
     color:rgb(24, 171, 230);
+    padding:10px;
+    transition: all 0.3s ease-in-out;
 }
+
+
+
 .media:hover{
     background-color: rgb(24, 171, 230);
-    /* color: white; */
+}
+
+.icons:hover{
+    color: white;
+}
+.line{
+    display: inline-block;
+    height:1px;
+    width:150px;
+    background-color: rgb(24, 171, 230);
+}
+.sec-head{
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 120px;
+}
+.sec-service{
+    font-size:25px;
+    font-weight: 500;
+    color:rgb(88, 155, 132);
+    padding-top: 30px;
+}
+.sec-para{
+    color:rgb(88, 155, 132);
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+.category{
+    height:80px;
+    width:80px;
+    border: 2px solid rgb(24, 171, 230);
+    transition: all 0.3s;
+}
+.category:hover{
+    background-color: rgb(24, 171, 230);;
+}
+.category-title{
+    font-size: 20px;
+    font-weight: 500;
+    padding:20px 0 0 0;
+}
+.sec-icon{
+    padding:25px;
+    font-size: 25px;
+    color:rgb(24, 171, 230);
+}
+.sec-icon:hover{
+    color:white;
+}
+.gift-icon{
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+    color:rgb(24, 171, 230);
+    border:1px solid rgb(24, 171, 230);
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.category-head{
+    display: flex;
+    justify-content:center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.category-items{
+    /* width:200px; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    
+    text-align: center;
+}
+.section2{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2-head{
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+.ppl-blk{
+    width:300px;
+    height:300px;
+    padding:100px;
+    border:2px solid #18abe6;
+    display: none;
+ }
+
+.blk1{
+    background-image: url(./images/01.jpg);
+    background-position: center;
+background-size: cover;
+width:300px;
+    height:300px;
+    border:2px solid #18abe6;
+
+}
+.blk2{
+    background-image: url(./images/02.jpg);
+    background-position: center;
+background-size: cover;
+width:300px;
+    height:300px;
+    border:2px solid #18abe6;
+}
+.blk3{
+    background-image: url(./images/03.jpg);
+    background-position: center;
+background-size: cover;
+width:300px;
+    height:300px;
+    border:2px solid #18abe6;
+}
+.sec2-ppl h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 0 20px 0;
+}
+.sec2-ppl p{
+    color:rgb(24, 171, 230);
+}
+.sec2-ppl{
+    display: flex;
+justify-content:center;
+text-align: center;
+}
+.sec2-ppl1{
+    margin:60px 40px 150px 40px;
+}
+.ppl-icon{
+    border: 1px solid rgb(24, 171, 230);
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color:rgb(24, 171, 230) ;
+    margin: 5px 0;
+
+}
+.ppl-icons{
+    color:white;
+    padding:10px;
+    font-size:15px;
+    
+}
+.sec3-head{
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}    
+.form{
+    margin:60px 0 20px 0;
+}
+input{
+    border:1px solid rgb(24, 171, 230) ;
+    height: 30px;
+    /* margin: 0 10px; */
+}
+textarea{
+    margin-top: 30px ;
+    border:1px solid rgb(24, 171, 230) ;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    /* border: 1px solid rgb(24, 171, 230) ;
+     */
+     margin-bottom: 120px;
+     padding: 10px;
+}
+footer{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.774);
+    padding:50px 0;
+    text-align: center;
+
+}
+footer span{
+    font-weight: 800;
 }
