@@ -124,6 +124,7 @@ color:white;
 }
 .mail:focus{
     background: transparent;
+    color: white;
 }
 .btn{
     background: transparent;
